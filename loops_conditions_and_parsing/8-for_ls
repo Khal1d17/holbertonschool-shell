@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Xalid baba
-ls
 for file in *; do
     if [[ "$file" == *-* ]]; then
         echo "${file#*-}"
