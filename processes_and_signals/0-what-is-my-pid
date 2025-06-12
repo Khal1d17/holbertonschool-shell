@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#pidimi tapp=ma 
+echo $$
