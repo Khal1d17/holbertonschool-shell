@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra dirs <<< "$PATH"; echo "${#dirs[@]}"
+ls -1 $PATH | wc -l
